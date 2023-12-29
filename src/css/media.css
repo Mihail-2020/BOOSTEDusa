@@ -1,0 +1,171 @@
+@media (max-width: 1370px) {
+	.shop {
+		grid-template-columns: repeat(2, 470px);
+	}
+	.shop__item {
+		height: 470px;
+	}
+	.shop__item--grid-3 {
+
+		grid-column: 1 / 3;
+
+		background: url(../images/Shop/Rectangle-2.2.jpg) top / cover no-repeat;
+
+		overflow: hidden;
+	}
+
+}
+
+@media (max-width: 1370px) {
+	.shop {
+		grid-template-columns: repeat(2, 470px);
+	}
+	.shop__item {
+		height: 470px;
+	}
+	.shop__item--grid-3 {
+
+		grid-column: 1 / 3;
+
+		background: url(../images/Shop/Rectangle-2.2.jpg) top / cover no-repeat;
+
+		overflow: hidden;
+	}
+
+}
+
+@media (max-width: 1180px) {
+	.rev {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.rev__item--grid {
+		grid-column: 1 / 3;
+	}
+}
+
+@media (max-width: 1024px) {
+	.nav {
+		font-size: 13px;
+	}
+
+	.intro__title {
+		margin-bottom: 0px;
+	
+		font-size: 35px;
+	}
+
+	.company {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 40px;
+	}
+
+	.shop {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.shop__item--grid-1 {
+		background: url(../images/Shop/Rectangle1.jpg) top / cover no-repeat;
+
+		overflow: hidden;
+	}
+	.shop__item--grid-2 {
+		background: url(../images/Shop/Rectangle-1.1.jpg) top / cover no-repeat;
+
+		overflow: hidden;
+	}
+	.shop__item--grid-3 {
+
+		grid-column: 1;
+	}
+}
+
+@media (max-width: 870px) {
+	.header__menu {
+		display: none;
+	}
+
+    .burger {
+        display: inline-block;
+    }
+
+
+
+	.intro {
+		height: 610px;
+	}
+
+	.section__title {
+		font-size: 25px;
+	}
+	.qustion__text {
+		font-size: 13px;
+	}
+
+
+	.swiper {
+		display: none;
+	}
+
+
+	.footer {
+		justify-content: center;
+		gap: 100px;
+	}
+}
+
+@media (max-width: 650px) {
+	.intro {
+		padding: 45px 5px;
+		height: 410px;
+	}
+	.intro__subtitle {
+		margin-bottom: 20px;
+
+		font-size: 13px;
+		line-height: 18.75px;
+	}
+
+
+	.company {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 20px;
+	}
+
+	.rev {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.rev__item--grid {
+		grid-column: 1;
+	}
+
+	.boosted-video {
+		padding: 0 20px;
+	}
+
+	.footer {
+		gap: 60px;
+	}
+}
+
+@media (max-width: 450px) {
+	.intro {
+		height: 300px;
+		background: url(../images/bg_intro.jpg) center -140px no-repeat;
+	}
+	.intro__title {
+		margin-bottom: 0px;
+	
+		font-size: 25px;
+	}
+	.intro__subtitle {
+		margin-bottom: 30px;
+
+		font-size: 13px;
+		line-height: 22px;
+	}
+	/* .intro__button {
+		display: flex;
+		justify-content: center;
+		gap: 20px;
+		flex-wrap: wrap;
+	} */
+}
