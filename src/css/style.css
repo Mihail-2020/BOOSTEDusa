@@ -265,7 +265,7 @@ ul, ol {
     letter-spacing: 1px;
 }
 .electric__title {
-
+    text-align: center;
     font-size: 45px;
     font-weight: 700;
     line-height: 50.625px;
